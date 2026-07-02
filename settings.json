@@ -3,5 +3,8 @@
   "theme": "dark",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.4-mini",
-  "defaultThinkingLevel": "medium"
+  "defaultThinkingLevel": "medium",
+  "packages": [
+    "npm:context-mode"
+  ]
 }
