@@ -1,0 +1,14 @@
+{
+  "servers": {
+		"ts": {
+			"command": "typescript-language-server",
+			"args": ["--stdio"],
+			"fileExtensions": [".ts", ".tsx", ".js", ".jsx"]
+		},
+		"gopls": {
+			"command": "gopls",
+			"args": ["serve"],
+			"fileExtensions": [".go"]
+		}
+	}
+}

@@ -1,10 +1,11 @@
 {
   "lastChangelogVersion": "0.80.3",
-  "theme": "dark",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.4-mini",
+  "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
+  "theme": "dark",
   "packages": [
-    "npm:context-mode"
+    "npm:context-mode",
+    "npm:pi-mcp-adapter"
   ]
 }
