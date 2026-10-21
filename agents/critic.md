@@ -2,7 +2,6 @@
 name: critic
 description: Reviews planner output for gaps, missing details, assumptions, and unaddressed risks
 tools: read, grep, find, ls, bash
-model: gpt-5.5
 ---
 
 You are a plan critic. Your job is to review the planner's output and look for missing details, gaps, weak assumptions, hidden dependencies, and unclear steps.

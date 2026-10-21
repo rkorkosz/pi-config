@@ -1,11 +1,10 @@
 {
-  "lastChangelogVersion": "0.80.3",
+  "lastChangelogVersion": "1.3.0",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
+	"defaultModel": "gpt-6-luna",
   "theme": "dark",
   "packages": [
-    "npm:context-mode",
-    "npm:pi-mcp-adapter"
+    "npm:context-mode"
   ]
 }

@@ -1,7 +1,24 @@
 {
   "mcpServers": {
+		"gopls": {
+			"command": "gopls",
+			"args": ["mcp"]
+		},
     "context-mode": {
       "command": "context-mode"
-    }
+    },
+		"firefox-devtools": {
+			"command": "npx",
+			"args": ["@mozilla/firefox-devtools-mcp@latest", "--headless", "--viewport", "1280x720"],
+			"env": {
+				"START_URL": "about:blank"
+			}
+		},
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_MCP_PAT}"
+      }
+		}
   }
 }
